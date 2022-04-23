@@ -1,0 +1,31 @@
+Iteration is a technique that allows to execute a block of statements repeatedly.
+Definition: Repeated execution of a set of statements is called iteration.
+The programming constructs used for iteration are while, for, break, continue and so on.
+The while statement is popularly used for representing iteration.
+
+Syntax
+while test_condition:
+body of while
+Flowchart for while statement is as given below The flow of execution is specified as follows-
+1. Using the condition determine if the given expression is true or false.
+2. If the expression is false then exit the while statement.
+3. If the expression is true then execute the body of the while and goback to step I in which again the condition is checked.
+
+For example
+while i<=10:
+    i=i+1
+    * The body of a while contains the statement which will change the value of the variable used in the test condition. Hence finally after performing definite number of iterations, the test condition gets false and the control exits the while loop.
+    * If the condition never gets false, then the while body executes for infinite times. Then in this case, such while loop is called infinite loop.
+    * There is another version of while statement in which else is used.
+
+Syntax
+while test_condition:
+            body of while
+else:
+            statement
+
+Example
+while i<=10:
+    i=i+1
+else:
+    print("Invalid value fo i")
